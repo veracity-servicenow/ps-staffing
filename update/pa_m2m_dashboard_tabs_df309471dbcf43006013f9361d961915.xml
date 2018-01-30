@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="ServiceNow Performance">c7301471dbcf43006013f9361d9619e2</dashboard>
+        <home>false</home>
+        <homepage display_value="ServiceNow Performance">e321469b0a0a0b3900bbc6125f1c7cd9</homepage>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>todd.fudala</sys_created_by>
+        <sys_created_on>2017-12-15 17:02:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df309471dbcf43006013f9361d961915</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>c7301471dbcf43006013f9361d9619e2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_df309471dbcf43006013f9361d961915</sys_update_name>
+        <sys_updated_by>todd.fudala</sys_updated_by>
+        <sys_updated_on>2017-12-15 17:02:32</sys_updated_on>
+        <tab display_value="New Tab">df309471dbcf43006013f9361d961913</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

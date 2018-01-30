@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script>(new x_24859_ps.psMailUtil).hasRequiredFields(email.body_text)</condition_script>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Staffing Request</name>
+        <order>25</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+	try{
+		current.description = "received from: " + email.origemail + "\n\n" + email.body_text;
+		current.short_description = email.subject.replace('FW: ','');
+		current.category = "inquiry";
+		current.contact_type = "email";
+		
+		var key = email.subject;
+		current.key = key.slice(key.indexOf('(')+1, key.indexOf(')'));
+		
+		if(email.body.hours != undefined)
+			current.hours = email.body.hours;
+		if(email.body.rate != undefined)
+			current.rate = email.body.rate.replace('$','');
+		if(email.body.location != undefined)
+			current.work_location = email.body.location;
+		if(email.body.start_date != undefined)
+			current.start_date = email.body.start_date;
+		if(email.body.end_date != undefined)
+			current.end_date = email.body.end_date;
+		if(email.body.role != undefined)
+			current.role = email.body.role;
+		if(email.body.scope != undefined)
+			current.work_notes = 'Scope is: ' + email.body.scope;
+		current.insert();
+	}
+	catch (ex) {
+		logger.log('Error condition: ' + ex);
+	}
+	
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-10 19:15:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8bbb66cdb983200a0b2d100cf961921</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Staffing Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>sysevent_in_email_action_b8bbb66cdb983200a0b2d100cf961921</sys_update_name>
+        <sys_updated_by>todd.fudala</sys_updated_by>
+        <sys_updated_on>2017-06-14 19:22:49</sys_updated_on>
+        <table>x_24859_ps_staffing_request</table>
+        <template/>
+        <type>forward</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Role: ${role}&#13;
+Rate: ${rate}&#13;
+Start Date: ${start_date}&#13;
+Contract Value: ${contract_value}</message_string>
+        <name>New Staffing Request</name>
+        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_message_content display_value="Generic Record Payload">4f9c2ec0d72102006b0f8ebc5e610327</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>todd.fudala</sys_created_by>
+        <sys_created_on>2017-03-29 17:46:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>013398b5db393e00bb8d5404ce9619ac</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>New Staffing Request</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>sys_push_notif_msg_013398b5db393e00bb8d5404ce9619ac</sys_update_name>
+        <sys_updated_by>todd.fudala</sys_updated_by>
+        <sys_updated_on>2017-06-14 21:22:42</sys_updated_on>
+        <table>x_24859_ps_staffing_request</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

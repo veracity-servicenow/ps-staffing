@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2017-12-21 00:53:16</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>todd.fudala</sys_created_by>
+        <sys_created_on>2017-07-25 17:21:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3129b767db0c8740bb8d5404ce96193f</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>297cc5c84898eb7226856a368675ec64256c47b296a1311a55f37923a0b8ff9e</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_3129b767db0c8740bb8d5404ce96193f</sys_update_name>
+        <sys_updated_by>todd.fudala</sys_updated_by>
+        <sys_updated_on>2017-12-21 00:53:16</sys_updated_on>
+        <sys_user_id display_value="Todd Fudala">14f76be313735600b9c65d622244b0bd</sys_user_id>
+        <token>297cc5c84898eb7226856a368675ec64256c47b296a1311a55f37923a0b8ff9e</token>
+    </sys_push_notif_app_install>
+</record_update>
