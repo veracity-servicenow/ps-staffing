@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ServiceNow Resource Detail" max_length="40" name="x_24859_ps_servicenow_resource_detail" type="collection">
+        <element label="Blurb" mandatory="true" max_length="1000" name="u_blurb" type="string"/>
+        <element label="User" mandatory="true" max_length="32" name="u_user_ref" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_user_ref"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_24859_poc_signature</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+//Grab POC user record to populate email signature
+	var poc = new GlideRecord('sys_user');
+	poc.addQuery('user_name',gs.getProperty('x_24859_ps.partner.poc.username'));
+	poc.query();
+	
+//Generate email signature html with user data
+	if(poc.next())
+	{
+		email.setFrom(poc.getValue('email'));
+		email.setReplyTo(poc.getValue('email'));
+			
+			
+		template.print('<table class="MsoNormalTable" border="0" cellpadding="0"><tbody><tr><td style="padding: 0in 0in 0in 0in;"><p class="MsoNormal"><strong><span style="font-size: 12.0pt; font-family: \'Arial\',sans-serif; color: #00a376;">');
+		template.print(poc.name);
+		template.print('</span></strong></p></td></tr>');
+		
+		
+		if(poc.phone) {
+			template.print('<tr><td style="padding: 0in 0in 0in 0in;"><p class="MsoNormal"><strong><span style="font-size: 10.0pt; font-family: \'Arial\',sans-serif; color: #00a376;">O&nbsp;</span></strong>&nbsp;<span style="color: #4d4949; font-family: Arial, sans-serif;"><span style="font-size: 13.3333px;">');
+			template.print(poc.phone);
+			template.print('</span></span></p></td></tr>');
+		}
+		
+		if(poc.mobile_phone) {
+			template.print('<tr><td style="padding: 0in 0in 0in 0in;"><p class="MsoNormal"><strong><span style="font-size: 10.0pt; font-family: \'Arial\',sans-serif; color: #00a376;">M&nbsp;</span></strong>&nbsp;<span style="color: #4d4949; font-family: Arial, sans-serif;"><span style="font-size: 13.3333px;">');
+			template.print(poc.mobile_phone);
+			template.print('</span></span></p></td></tr>');
+		}
+		
+		if(poc.business_phone) {
+			template.print('<tr><td style="padding: 0in 0in 0in 0in;"><p class="MsoNormal"><strong><span style="font-size: 10.0pt; font-family: \'Arial\',sans-serif; color: #00a376;">W&nbsp;</span></strong>&nbsp;<span style="color: #4d4949; font-family: Arial, sans-serif;"><span style="font-size: 13.3333px;">');
+			template.print(poc.business_phone);
+			template.print('</span></span></p></td></tr>');
+		}
+		template.print('<tr><td style="padding: 0in 0in 0in 0in;"><p class="MsoNormal"><strong><span style="font-size: 10.0pt; font-family: \'Arial\',sans-serif; color: #00a376;">E&nbsp;</span></strong> <span style="font-size: 10.0pt; color: #4d4949;"><span style="font-family: \'Arial\',sans-serif; color: #4d4949;"><a href="mailto:${sender.email}">');
+			template.print(poc.email);
+			template.print('</a></span></span></p></td></tr></tbody></table>');
+		}
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-06 21:31:58</sys_created_on>
+        <sys_id>980a467a4f801300dc6a1b818110c718</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_24859_poc_signature</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>sys_script_email_980a467a4f801300dc6a1b818110c718</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-06 21:31:58</sys_updated_on>
+    </sys_script_email>
+</record_update>

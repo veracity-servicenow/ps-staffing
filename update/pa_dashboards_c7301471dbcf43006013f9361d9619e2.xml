@@ -11,7 +11,7 @@
         <name>ServiceNow Performance</name>
         <no_tabs>false</no_tabs>
         <order/>
-        <owner display_value="Todd Fudala">14f76be313735600b9c65d622244b0bd</owner>
+        <owner display_value="Todd Fudala">4c08c6594f841300dc6a1b818110c726</owner>
         <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>
@@ -19,7 +19,6 @@
         <sys_class_name>pa_dashboards</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-12-15 17:02:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7301471dbcf43006013f9361d9619e2</sys_id>
@@ -28,7 +27,6 @@
         <sys_overrides/>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>pa_dashboards_c7301471dbcf43006013f9361d9619e2</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>

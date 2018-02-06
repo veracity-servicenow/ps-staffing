@@ -44,7 +44,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>todd.fudala</sys_created_by>
             <sys_created_on>2017-04-19 02:40:53</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ed7dcd10db9ef240bb8d5404ce96198d</sys_id>
@@ -52,7 +51,6 @@
             <sys_name>x_24859_ps_staffing_request</sys_name>
             <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
             <sys_update_name>sys_ui_list_x_24859_ps_staffing_request_RPTbe5d8d10db9ef240bb8d5404ce961920</sys_update_name>
             <sys_updated_by>todd.fudala</sys_updated_by>

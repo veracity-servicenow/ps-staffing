@@ -24,7 +24,7 @@
         <column>active</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Todd Fudala">14f76be313735600b9c65d622244b0bd</created_by_user>
+        <created_by_user display_value="Todd Fudala">4c08c6594f841300dc6a1b818110c726</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <decimal_precision>2</decimal_precision>
@@ -87,13 +87,11 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-04-19 02:38:24</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>ddec0910db9ef240bb8d5404ce961988</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Todd Fudala: 2017-04-18 22:38:24</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sys_report_ddec0910db9ef240bb8d5404ce961988</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>
@@ -107,7 +105,6 @@
         <type>list</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
-        <use_color_palette>true</use_color_palette>
         <user>GLOBAL</user>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

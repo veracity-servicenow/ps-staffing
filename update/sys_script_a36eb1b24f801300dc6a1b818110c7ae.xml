@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_24859_ps_staffing_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_24859_ps_staffing_request">assigned_toISNOTEMPTY^stateCHANGESFROM1^state=5^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="1"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Responded notify resman</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	// Business Rule that places event on the queue when state set responded and resource is assigned, since info:'ATTACHMENTS' needed are on 'ServiceNow Resource Detail' table, and email template needs to be on table with the attachments
+	
+	//Grab Resource Manager email property value, will be used as event.parm2
+	var resmanEmail = gs.getProperty('x_24859_ps.resource.manager.email');
+	if (!resmanEmail) return;
+		
+	//Grab Resource Detail record for the assigned_to user
+	var rs = new GlideRecord('x_24859_ps_servicenow_resource_detail');
+	rs.addQuery('u_user_ref',current.assigned_to);
+	rs.query();
+	if (rs.hasNext() && rs.next()) {
+		//Grabs Resource Detail gliderecord, pass to event to override 'triggered' by record
+		//this allows notification to use 'resource detail' vs 'staffing request'
+		//table values in templates
+		//gs.eventQueue(
+		// event name
+		// gliderecord of record that fired event, this case we override - rs vs. current
+		// event.parm1  -  we pass the staffing record id
+		// event.parm2  -  we pass the resource manager email
+		// )
+		
+		rs.get(rs.getValue('sys_id'));
+		gs.eventQueue('x_24859_ps.respond_resman',rs,current.sys_id,resmanEmail);
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-06 20:45:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a36eb1b24f801300dc6a1b818110c7ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Responded notify resman</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>sys_script_a36eb1b24f801300dc6a1b818110c7ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-06 20:45:03</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a36eb1b24f801300dc6a1b818110c7ae"/>
+</record_update>
