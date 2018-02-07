@@ -5,22 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_24859_ps_servicenow_resource_detail</name>
+        <name>x_24859_ps_servicenow_product</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-06 20:32:31</sys_created_on>
-        <sys_id>3b589b874f801300dc6a1b818110c7bb</sys_id>
+        <sys_created_on>2017-01-31 15:05:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>76e02f83db80d740bb8d5404ce9619f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_24859_ps_servicenow_resource_detail</sys_name>
+        <sys_name>x_24859_ps_servicenow_product</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
-        <sys_update_name>ua_table_licensing_config_3b589b874f801300dc6a1b818110c7bb</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_76e02f83db80d740bb8d5404ce9619f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-02-06 20:32:31</sys_updated_on>
+        <sys_updated_on>2017-01-31 15:05:15</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

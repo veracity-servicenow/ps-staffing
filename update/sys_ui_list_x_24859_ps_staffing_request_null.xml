@@ -18,6 +18,36 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>88f7c6cfdb0013008f21d730cf9619a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>0cf7c6cfdb0013008f21d730cf9619a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>sys_created_on</element>
             <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
             <max_value>false</max_value>
@@ -45,6 +75,36 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>todd.fudala</sys_updated_by>
             <sys_updated_on>2018-02-07 21:47:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>8cf7c6cfdb0013008f21d730cf9619a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>00f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -78,6 +138,21 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>role</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>80f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>rate</element>
             <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
             <max_value>false</max_value>
@@ -90,6 +165,36 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>todd.fudala</sys_updated_by>
             <sys_updated_on>2018-02-07 21:47:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rate</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>04f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hours</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>84f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -121,6 +226,36 @@
             <sys_updated_by>todd.fudala</sys_updated_by>
             <sys_updated_on>2018-02-07 21:47:28</sys_updated_on>
         </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>08f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae869387db40d740bb8d5404ce961915</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>88f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-02-07 22:29:38</sys_updated_on>
+        </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element/>
@@ -134,6 +269,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>todd.fudala</sys_created_by>
             <sys_created_on>2018-02-07 21:44:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ae869387db40d740bb8d5404ce961915</sys_id>
@@ -141,6 +277,7 @@
             <sys_name>x_24859_ps_staffing_request</sys_name>
             <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
             <sys_update_name>sys_ui_list_x_24859_ps_staffing_request_null</sys_update_name>
             <sys_updated_by>todd.fudala</sys_updated_by>
