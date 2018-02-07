@@ -4,6 +4,7 @@
         <field_list>number,contract_value</field_list>
         <script/>
         <search_fields/>
+        <style_field/>
         <sys_class_name>sys_ui_title</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-05-03 03:36:52</sys_created_on>

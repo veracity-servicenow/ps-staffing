@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="ServiceNow Staffing Request" max_length="40" name="x_24859_ps_staffing_request" sizeclass="1" type="collection">
+    <element audit="true" extends="task" label="ServiceNow Staffing Request" max_length="40" name="x_24859_ps_staffing_request" type="collection">
         <element label="Contract Value" max_length="20" name="contract_value" read_only="true" type="currency"/>
         <element label="End Date" max_length="40" name="end_date" read_only="true" type="string"/>
         <element label="Hours" max_length="40" name="hours" read_only="true" type="integer"/>

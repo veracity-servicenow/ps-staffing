@@ -8,6 +8,7 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_24859_ps.servicenow_resource_detail_user</name>
+        <scoped_admin>false</scoped_admin>
         <suffix>servicenow_resource_detail_user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>

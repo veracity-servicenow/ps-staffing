@@ -17,7 +17,7 @@
         <number_ref display_value="PSREQ">a132b668db983200a0b2d100cf9619e2</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">be37af45dd2003003399d83d70be02cc</super_class>
+        <super_class display_value="Task" name="task">2ee1ba76791203006517636e4f534938</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

@@ -20,8 +20,6 @@
         <query/>
         <report display_value="Contract Value by Role">418d6fa0db1c3200a0b2d100cf961937</report>
         <roles>x_24859_ps.staffing_request_user</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-20 04:20:41</sys_created_on>

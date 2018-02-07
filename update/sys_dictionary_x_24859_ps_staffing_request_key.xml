@@ -31,6 +31,8 @@
         <element>key</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -52,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-10 21:14:01</sys_created_on>
-        <sys_id>6a0a7dbe4f401300dc6a1b818110c787</sys_id>
+        <sys_id>bb131b0bdbc013008f21d730cf961960</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Key</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
@@ -60,7 +62,7 @@
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sys_dictionary_x_24859_ps_staffing_request_key</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-06 20:21:32</sys_updated_on>
+        <sys_updated_on>2018-02-07 21:29:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

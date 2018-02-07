@@ -22,8 +22,6 @@
         <query/>
         <report/>
         <roles>x_24859_ps.staffing_request_user</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-03-29 17:52:14</sys_created_on>

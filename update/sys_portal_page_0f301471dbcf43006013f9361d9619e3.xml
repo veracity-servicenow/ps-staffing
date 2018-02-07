@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-02-07 21:20:08">
+<record_update node_type="sys_portal_page" unload_date="2018-02-07 21:40:59">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -40,7 +40,7 @@
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab">4f309471dbcf43006013f9361d96190f</grid_canvas>
                         <height>110</height>
-                        <portal_widget display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
+                        <portal_widget display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
                         <posx>0</posx>
                         <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
@@ -61,7 +61,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                        <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                         <sys_created_by>todd.fudala</sys_created_by>
                         <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                         <sys_id>5b309471dbcf43006013f9361d96191b</sys_id>
@@ -72,7 +72,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                        <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                         <sys_created_by>todd.fudala</sys_created_by>
                         <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                         <sys_id>5b309471dbcf43006013f9361d96191c</sys_id>
@@ -83,7 +83,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                        <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                         <sys_created_by>todd.fudala</sys_created_by>
                         <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                         <sys_id>5f309471dbcf43006013f9361d96191a</sys_id>
@@ -94,7 +94,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                        <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                         <sys_created_by>todd.fudala</sys_created_by>
                         <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                         <sys_id>97309471dbcf43006013f9361d96191b</sys_id>
@@ -105,7 +105,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                        <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                         <sys_created_by>todd.fudala</sys_created_by>
                         <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                         <sys_id>97309471dbcf43006013f9361d96191c</sys_id>

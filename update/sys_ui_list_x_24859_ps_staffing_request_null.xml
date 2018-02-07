@@ -4,182 +4,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-08-11 18:17:52</sys_created_on>
-            <sys_id>2a296705dd6003003399d83d70be02da</sys_id>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>88f7c6cfdb0013008f21d730cf9619a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-08-11 18:17:52</sys_updated_on>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>0</position>
-            <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-10-27 19:51:44</sys_created_on>
-            <sys_id>d8116c86dbc203006013f9361d96197a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-27 19:51:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
+            <element>sys_created_on</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-10-27 19:51:44</sys_created_on>
-            <sys_id>5c116c86dbc203006013f9361d96197a</sys_id>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>0cf7c6cfdb0013008f21d730cf9619a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-27 19:51:44</sys_updated_on>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-08-11 18:17:52</sys_created_on>
-            <sys_id>aa296705dd6003003399d83d70be02da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-08-11 18:17:52</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-10-27 19:51:44</sys_created_on>
-            <sys_id>dc116c86dbc203006013f9361d96197a</sys_id>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>8cf7c6cfdb0013008f21d730cf9619a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-27 19:51:44</sys_updated_on>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-08-11 18:17:52</sys_created_on>
-            <sys_id>2e296705dd6003003399d83d70be02da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-08-11 18:17:52</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-10-27 19:51:44</sys_created_on>
-            <sys_id>50116c86dbc203006013f9361d96197b</sys_id>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>00f7c6cfdb0013008f21d730cf9619a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-27 19:51:44</sys_updated_on>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>role</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>80f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rate</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>04f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hours</element>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>84f7c6cfdb0013008f21d730cf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>3</position>
+            <position>7</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-08-11 18:17:52</sys_created_on>
-            <sys_id>ae296705dd6003003399d83d70be02da</sys_id>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>08f7c6cfdb0013008f21d730cf9619a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-08-11 18:17:52</sys_updated_on>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
+            <list_id display_value="x_24859_ps_staffing_request" element="NULL" name="x_24859_ps_staffing_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">04f7c6cfdb0013008f21d730cf9619a7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>4</position>
+            <position>8</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-10-27 19:51:44</sys_created_on>
-            <sys_id>d0116c86dbc203006013f9361d96197b</sys_id>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2018-02-07 16:00:42</sys_created_on>
+            <sys_id>88f7c6cfdb0013008f21d730cf9619a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-27 19:51:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-08-11 18:17:52</sys_created_on>
-            <sys_id>22296705dd6003003399d83d70be02db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-08-11 18:17:52</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-10-27 19:51:44</sys_created_on>
-            <sys_id>54116c86dbc203006013f9361d96197b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-10-27 19:51:44</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a6296705dd6003003399d83d70be02da</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>5</position>
-            <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-08-11 18:17:52</sys_created_on>
-            <sys_id>a2296705dd6003003399d83d70be02db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-08-11 18:17:52</sys_updated_on>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2018-02-07 16:00:42</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -205,7 +160,7 @@
             <sys_update_name>sys_ui_list_x_24859_ps_staffing_request_null</sys_update_name>
             <sys_updated_by>todd.fudala</sys_updated_by>
             <sys_updated_on>2017-04-19 02:34:00</sys_updated_on>
-            <sys_user display_value="Todd Fudala">4c08c6594f841300dc6a1b818110c726</sys_user>
+            <sys_user display_value="Todd Fudala">894ff464db0013008f21d730cf9619c9</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

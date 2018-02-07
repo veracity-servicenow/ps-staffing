@@ -13,13 +13,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-06 20:32:31</sys_created_on>
-        <sys_id>dc9cbd324f801300dc6a1b818110c7b9</sys_id>
+        <sys_id>48231b0bdbc013008f21d730cf961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_24859_ps_servicenow_resource_detail</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
-        <sys_update_name>ua_table_licensing_config_dc9cbd324f801300dc6a1b818110c7b9</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_48231b0bdbc013008f21d730cf961994</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-02-06 20:32:31</sys_updated_on>
     </ua_table_licensing_config>
