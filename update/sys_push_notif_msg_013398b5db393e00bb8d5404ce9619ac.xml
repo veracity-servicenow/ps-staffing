@@ -12,13 +12,11 @@ Contract Value: ${contract_value}</message_string>
         <sys_class_name>sys_push_notif_msg</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-03-29 17:46:46</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>013398b5db393e00bb8d5404ce9619ac</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>New Staffing Request</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sys_push_notif_msg_013398b5db393e00bb8d5404ce9619ac</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>
