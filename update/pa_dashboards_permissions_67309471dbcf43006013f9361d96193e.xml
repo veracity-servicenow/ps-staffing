@@ -10,13 +10,11 @@
         <sys_class_name>pa_dashboards_permissions</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-12-15 17:02:33</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>67309471dbcf43006013f9361d96193e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>pa_contributor</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>pa_dashboards_permissions_67309471dbcf43006013f9361d96193e</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>
