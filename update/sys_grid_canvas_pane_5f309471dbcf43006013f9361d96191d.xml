@@ -3,17 +3,19 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA New Tab">4f309471dbcf43006013f9361d96190f</grid_canvas>
         <height>110</height>
-        <portal_widget display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
+        <portal_widget display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-12-15 17:02:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5f309471dbcf43006013f9361d96191d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>4f309471dbcf43006013f9361d96190f</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_5f309471dbcf43006013f9361d96191d</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>
