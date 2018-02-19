@@ -8,6 +8,7 @@
         <element label="Products" max_length="4000" name="products" reference="x_24859_ps_servicenow_product" type="glide_list"/>
         <element label="Rate" max_length="20" name="rate" read_only="true" type="currency"/>
         <element label="Role" max_length="40" name="role" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var myRegexp = /Scope:  ((.|[\r\n])*)/;&#13;&#10;&#9;var match = myRegexp.exec(current.getValue('description'));&#13;&#10;&#9;&#13;&#10;&#9;var m = match[1];&#13;&#10;&#9;if (!match[1]) return &quot;&quot;;&#13;&#10;&#9;m = m.substring(0, m.lastIndexOf(&quot;_________________________________&quot;));&#13;&#10;&#9;m = m.substring(0, m.lastIndexOf(&quot;Thanks&quot;));&#13;&#10;&#9;m = m.trim();&#13;&#10;&#9;m = m.replace(/\r?\n|\r/g,&quot; &quot;);&#13;&#10;&#9;return m;&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;//return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Scope" max_length="1000" name="scope" type="string" virtual="true"/>
         <element label="Start Date" max_length="40" name="start_date" read_only="true" type="string"/>
         <element label="Work Location" max_length="40" name="work_location" read_only="true" type="string"/>
     </element>

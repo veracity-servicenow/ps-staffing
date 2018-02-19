@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="solution" label="Solution" language="en" table="x_24859_ps_servicenow_product">
+    <sys_documentation element="scope" label="Scope" language="en" table="x_24859_ps_staffing_request">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>solution</element>
+            <element>scope</element>
             <help/>
             <hint/>
-            <label>Solution</label>
+            <label>Scope</label>
             <language>en</language>
-            <name>x_24859_ps_servicenow_product</name>
-            <plural>Solutions</plural>
+            <name>x_24859_ps_staffing_request</name>
+            <plural>Scopes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-31 15:07:47</sys_created_on>
-            <sys_id>4a6c0657db283200a0b2d100cf961947</sys_id>
+            <sys_created_on>2018-02-19 21:57:37</sys_created_on>
+            <sys_id>65bc458b4f101300dc6a1b818110c7e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Solution</sys_name>
+            <sys_name>Scope</sys_name>
             <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
             <sys_policy/>
             <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
-            <sys_update_name>sys_documentation_x_24859_ps_servicenow_product_solution_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_24859_ps_staffing_request_scope_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-31 15:07:47</sys_updated_on>
+            <sys_updated_on>2018-02-19 21:57:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_grid_canvas" unload_date="2018-02-08 23:31:42">
+<record_update node_type="sys_grid_canvas" unload_date="2018-02-19 23:08:57">
     <sys_grid_canvas action="INSERT_OR_UPDATE">
         <legacy_page display_value="PA New Tab">0f301471dbcf43006013f9361d9619e3</legacy_page>
         <name>PA New Tab</name>
         <sys_class_name>sys_grid_canvas</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-12-15 17:02:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4f309471dbcf43006013f9361d96190f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>PA New Tab</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sys_grid_canvas_4f309471dbcf43006013f9361d96190f</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>
@@ -21,19 +19,17 @@
             <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                 <grid_canvas display_value="PA New Tab">4f309471dbcf43006013f9361d96190f</grid_canvas>
                 <height>110</height>
-                <portal_widget display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
+                <portal_widget display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
                 <posx>0</posx>
                 <posy>0</posy>
                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                 <sys_created_by>todd.fudala</sys_created_by>
                 <sys_created_on>2017-12-15 17:02:32</sys_created_on>
-                <sys_customer_update>false</sys_customer_update>
                 <sys_id>5f309471dbcf43006013f9361d96191d</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_name>4f309471dbcf43006013f9361d96190f</sys_name>
                 <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
                 <sys_policy/>
-                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                 <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
                 <sys_update_name>sys_grid_canvas_pane_5f309471dbcf43006013f9361d96191d</sys_update_name>
                 <sys_updated_by>todd.fudala</sys_updated_by>
@@ -55,19 +51,17 @@
                             <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                                 <grid_canvas display_value="PA New Tab">4f309471dbcf43006013f9361d96190f</grid_canvas>
                                 <height>110</height>
-                                <portal_widget display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
+                                <portal_widget display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_widget>
                                 <posx>0</posx>
                                 <posy>0</posy>
                                 <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                                 <sys_created_by>todd.fudala</sys_created_by>
                                 <sys_created_on>2017-12-15 17:02:32</sys_created_on>
-                                <sys_customer_update>false</sys_customer_update>
                                 <sys_id>5f309471dbcf43006013f9361d96191d</sys_id>
                                 <sys_mod_count>0</sys_mod_count>
                                 <sys_name>4f309471dbcf43006013f9361d96190f</sys_name>
                                 <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
                                 <sys_policy/>
-                                <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
                                 <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
                                 <sys_update_name>sys_grid_canvas_pane_5f309471dbcf43006013f9361d96191d</sys_update_name>
                                 <sys_updated_by>todd.fudala</sys_updated_by>
@@ -78,7 +72,7 @@
                         <related_items_node>
                             <sys_portal_preferences action="INSERT_OR_UPDATE">
                                 <name>sys_id</name>
-                                <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                                <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                                 <sys_created_by>todd.fudala</sys_created_by>
                                 <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                                 <sys_id>5b309471dbcf43006013f9361d96191b</sys_id>
@@ -89,7 +83,7 @@
                             </sys_portal_preferences>
                             <sys_portal_preferences action="INSERT_OR_UPDATE">
                                 <name>renderer</name>
-                                <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                                <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                                 <sys_created_by>todd.fudala</sys_created_by>
                                 <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                                 <sys_id>5b309471dbcf43006013f9361d96191c</sys_id>
@@ -100,7 +94,7 @@
                             </sys_portal_preferences>
                             <sys_portal_preferences action="INSERT_OR_UPDATE">
                                 <name>current_page</name>
-                                <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                                <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                                 <sys_created_by>todd.fudala</sys_created_by>
                                 <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                                 <sys_id>5f309471dbcf43006013f9361d96191a</sys_id>
@@ -111,7 +105,7 @@
                             </sys_portal_preferences>
                             <sys_portal_preferences action="INSERT_OR_UPDATE">
                                 <name>title</name>
-                                <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                                <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                                 <sys_created_by>todd.fudala</sys_created_by>
                                 <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                                 <sys_id>97309471dbcf43006013f9361d96191b</sys_id>
@@ -122,7 +116,7 @@
                             </sys_portal_preferences>
                             <sys_portal_preferences action="INSERT_OR_UPDATE">
                                 <name>type</name>
-                                <portal_section display_value="Created 2017-12-15 12:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
+                                <portal_section display_value="Created 2017-12-15 09:02:32">9b309471dbcf43006013f9361d96191a</portal_section>
                                 <sys_created_by>todd.fudala</sys_created_by>
                                 <sys_created_on>2017-12-15 17:02:32</sys_created_on>
                                 <sys_id>97309471dbcf43006013f9361d96191c</sys_id>

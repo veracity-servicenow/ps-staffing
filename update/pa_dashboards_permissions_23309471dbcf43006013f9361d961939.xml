@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="ROI Predicted Savings">3677cd36d7700200f215a5f75e6103fe</dashboard>
+        <dashboard display_value="">3677cd36d7700200f215a5f75e6103fe</dashboard>
         <delete>true</delete>
         <group/>
         <identity>pa_power_user</identity>
@@ -10,13 +10,11 @@
         <sys_class_name>pa_dashboards_permissions</sys_class_name>
         <sys_created_by>todd.fudala</sys_created_by>
         <sys_created_on>2017-12-15 17:02:33</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>23309471dbcf43006013f9361d961939</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>pa_power_user</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>pa_dashboards_permissions_23309471dbcf43006013f9361d961939</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>

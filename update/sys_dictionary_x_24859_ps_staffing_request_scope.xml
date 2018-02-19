@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_blurb" table="x_24859_ps_servicenow_resource_detail">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="scope" table="x_24859_ps_staffing_request">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
-
+	
+	var myRegexp = /Scope:  ((.|[\r\n])*)/;
+	var match = myRegexp.exec(current.getValue('description'));
+	
+	var m = match[1];
+	if (!match[1]) return "";
+	m = m.substring(0, m.lastIndexOf("_________________________________"));
+	m = m.substring(0, m.lastIndexOf("Thanks"));
+	m = m.trim();
+	m = m.replace(/\r?\n|\r/g," ");
+	return m;
+	
+	
 	// Add your code here
-	return '';  // return the calculated value
+	//return '';  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Blurb</column_label>
+        <column_label>Scope</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,13 +40,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_blurb</element>
+        <element>scope</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>1000</max_length>
-        <name>x_24859_ps_servicenow_resource_detail</name>
+        <name>x_24859_ps_staffing_request</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,23 +63,23 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-02-06 20:34:24</sys_created_on>
-        <sys_id>e3b449834f101300dc6a1b818110c734</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Blurb</sys_name>
+        <sys_created_on>2018-02-19 21:57:37</sys_created_on>
+        <sys_id>725c8d4b4f101300dc6a1b818110c71b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Scope</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
-        <sys_update_name>sys_dictionary_x_24859_ps_servicenow_resource_detail_u_blurb</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-19 21:22:51</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_24859_ps_staffing_request_scope</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-19 22:28:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
