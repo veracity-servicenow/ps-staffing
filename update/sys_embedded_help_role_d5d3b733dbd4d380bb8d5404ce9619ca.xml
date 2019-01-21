@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="sn_hr_le.case_writer" name="sn_hr_le.case_writer">892692920b63220045e16f3ef6673a59</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-02-22 18:03:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d5d3b733dbd4d380bb8d5404ce9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>892692920b63220045e16f3ef6673a59</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d5d3b733dbd4d380bb8d5404ce9619ca</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-22 18:03:14</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

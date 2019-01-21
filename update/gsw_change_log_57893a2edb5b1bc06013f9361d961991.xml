@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2018-07-17 19:44:33</change_date>
+        <changed_by display_value="Todd Fudala">14f76be313735600b9c65d622244b0bd</changed_by>
+        <content display_value="HR Guided Setup">8cf18484538212005d5ba5f4a11c0817</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>todd.fudala</sys_created_by>
+        <sys_created_on>2018-07-17 19:44:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>57893a2edb5b1bc06013f9361d961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2018-07-17 19:44:33</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>gsw_change_log_57893a2edb5b1bc06013f9361d961991</sys_update_name>
+        <sys_updated_by>todd.fudala</sys_updated_by>
+        <sys_updated_on>2018-07-17 19:44:33</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

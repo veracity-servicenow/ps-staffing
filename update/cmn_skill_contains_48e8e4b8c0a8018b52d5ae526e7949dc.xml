@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_skill_contains">
+    <cmn_skill_contains action="INSERT_OR_UPDATE">
+        <contains display_value="Hitachi SAN">48c9fad4c0a8018b6caf6fd72a116ce7</contains>
+        <name>SAN - Hitachi SAN</name>
+        <skill display_value="SAN">48c9fa47c0a8018b2dece69eb713368a</skill>
+        <sys_class_name>cmn_skill_contains</sys_class_name>
+        <sys_created_by>dariusz.maint</sys_created_by>
+        <sys_created_on>2010-03-10 16:29:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48e8e4b8c0a8018b52d5ae526e7949dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hitachi SAN.SAN</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>cmn_skill_contains_48e8e4b8c0a8018b52d5ae526e7949dc</sys_update_name>
+        <sys_updated_by>dariusz.maint</sys_updated_by>
+        <sys_updated_on>2010-03-10 16:29:34</sys_updated_on>
+    </cmn_skill_contains>
+</record_update>

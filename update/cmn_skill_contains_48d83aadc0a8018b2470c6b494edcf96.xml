@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_skill_contains">
+    <cmn_skill_contains action="INSERT_OR_UPDATE">
+        <contains display_value="HP Laptops">48c9fe42c0a8018b6164ac1d10baa7e2</contains>
+        <name>Laptops - HP Laptops</name>
+        <skill display_value="Laptops">48c9fbccc0a8018b444e02fe4f108111</skill>
+        <sys_class_name>cmn_skill_contains</sys_class_name>
+        <sys_created_by>dariusz.maint</sys_created_by>
+        <sys_created_on>2010-03-10 16:11:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48d83aadc0a8018b2470c6b494edcf96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HP Laptops.Laptops</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>cmn_skill_contains_48d83aadc0a8018b2470c6b494edcf96</sys_update_name>
+        <sys_updated_by>dariusz.maint</sys_updated_by>
+        <sys_updated_on>2010-03-10 16:11:22</sys_updated_on>
+    </cmn_skill_contains>
+</record_update>

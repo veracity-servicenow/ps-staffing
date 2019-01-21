@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_skill_contains">
+    <cmn_skill_contains action="INSERT_OR_UPDATE">
+        <contains display_value="Windows Firewall Installing/Setting">48e140dac0a8018b4a8a803cd30a00cb</contains>
+        <name>Windows Firewalls - Windows Firewall Installing/Setting</name>
+        <skill display_value="Windows Firewalls">48c9f3b5c0a8018b1d2d29b9e4e7c2e6</skill>
+        <sys_class_name>cmn_skill_contains</sys_class_name>
+        <sys_created_by>dariusz.maint</sys_created_by>
+        <sys_created_on>2010-03-10 16:21:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48e15c9cc0a8018b03edce51bc25e6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Windows Firewall Installing/Setting.Windows Firewalls</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>cmn_skill_contains_48e15c9cc0a8018b03edce51bc25e6a7</sys_update_name>
+        <sys_updated_by>dariusz.maint</sys_updated_by>
+        <sys_updated_on>2010-03-10 16:21:21</sys_updated_on>
+    </cmn_skill_contains>
+</record_update>

@@ -10,7 +10,17 @@
         <collection>x_24859_ps_servicenow_resource_detail</collection>
         <condition/>
         <content_type>text/html</content_type>
+        <default_interval/>
         <description>Notice generated from event.staffing.responded produced from ServiceNow Staffing Request Table</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>x_24859_ps.respond_resman</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>true</event_parm_2>
@@ -43,6 +53,7 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-02-06 21:19:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb174a764f801300dc6a1b818110c7b3</sys_id>
@@ -51,6 +62,7 @@
         <sys_overrides/>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sysevent_email_action_fb174a764f801300dc6a1b818110c7b3</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>

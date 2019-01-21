@@ -31,6 +31,8 @@
         <element>rate</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Currency">currency</internal_type>
         <mandatory>false</mandatory>
         <max_length>20</max_length>
@@ -52,15 +54,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-10 18:36:34</sys_created_on>
-        <sys_id>53b409834f101300dc6a1b818110c7f8</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>569d774edbec1b80bb8d5404ce9619e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Rate</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sys_dictionary_x_24859_ps_staffing_request_rate</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-19 21:22:52</sys_updated_on>
+        <sys_updated_on>2018-03-01 18:32:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

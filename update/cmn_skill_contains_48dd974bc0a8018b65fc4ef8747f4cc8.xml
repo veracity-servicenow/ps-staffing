@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_skill_contains">
+    <cmn_skill_contains action="INSERT_OR_UPDATE">
+        <contains display_value="SAP Basis">48c9f052c0a8018b197cfa2e70a00315</contains>
+        <name>SAP - SAP Basis</name>
+        <skill display_value="SAP">48c9ef66c0a8018b1118b490a7604151</skill>
+        <sys_class_name>cmn_skill_contains</sys_class_name>
+        <sys_created_by>dariusz.maint</sys_created_by>
+        <sys_created_on>2010-03-10 16:17:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48dd974bc0a8018b65fc4ef8747f4cc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAP Basis.SAP</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>cmn_skill_contains_48dd974bc0a8018b65fc4ef8747f4cc8</sys_update_name>
+        <sys_updated_by>dariusz.maint</sys_updated_by>
+        <sys_updated_on>2010-03-10 16:17:14</sys_updated_on>
+    </cmn_skill_contains>
+</record_update>

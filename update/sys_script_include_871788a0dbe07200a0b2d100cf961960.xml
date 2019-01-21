@@ -4,6 +4,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_24859_ps.psMailUtil</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description/>
         <name>psMailUtil</name>
@@ -14,13 +15,13 @@ psMailUtil.prototype = {
 	hasRequiredFields: function (body){
 		
 		var answer = false;
-		var fields = ['Role:','Start Date:','End Date:','Hours:','Rate:'];
+		var fields = ['Role:','Start Date:','End Date:','Hours:','Rate:', 'Scope:'];
 		var b = body.toLowerCase();
 		var rm = gs.getProperty("x_24859_ps.resource.manager").toLowerCase();
 		
 		// Determine if the body of the email contains the email of the ServiceNow resource manager
 		if(b.indexOf(rm) > -1) {
-			// Determin if the body contains the keywords that identify a staffing request
+			// Determine if the body contains the keywords that identify a staffing request
 			for(i=0; i < fields.length; i++) {
 				if (b.indexOf(fields[i].toLowerCase()) > -1)
 					answer = true;
@@ -38,14 +39,16 @@ psMailUtil.prototype = {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-22 16:22:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>871788a0dbe07200a0b2d100cf961960</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>psMailUtil</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sys_script_include_871788a0dbe07200a0b2d100cf961960</sys_update_name>
         <sys_updated_by>todd.fudala</sys_updated_by>
-        <sys_updated_on>2017-06-14 18:53:57</sys_updated_on>
+        <sys_updated_on>2019-01-21 14:38:46</sys_updated_on>
     </sys_script_include>
 </record_update>
