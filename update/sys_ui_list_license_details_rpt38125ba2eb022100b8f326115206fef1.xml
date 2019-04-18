@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="license_details" version="2" view="RPT38125ba2eb022100b8f326115206fef1">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="license_details" element="NULL" name="license_details" parent="NULL" relationship="NULL" sys_domain="global" view="7299291ddb88fb0052af51735e9619db">3e99291ddb88fb0052af51735e9619db</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-03-06 19:41:06</sys_created_on>
+            <sys_id>7299291ddb88fb0052af51735e9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-03-06 19:41:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="license_details" element="NULL" name="license_details" parent="NULL" relationship="NULL" sys_domain="global" view="7299291ddb88fb0052af51735e9619db">3e99291ddb88fb0052af51735e9619db</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-03-06 19:41:06</sys_created_on>
+            <sys_id>f299291ddb88fb0052af51735e9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-03-06 19:41:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end_date</element>
+            <list_id display_value="license_details" element="NULL" name="license_details" parent="NULL" relationship="NULL" sys_domain="global" view="7299291ddb88fb0052af51735e9619db">3e99291ddb88fb0052af51735e9619db</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-03-06 19:41:06</sys_created_on>
+            <sys_id>7699291ddb88fb0052af51735e9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-03-06 19:41:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>count</element>
+            <list_id display_value="license_details" element="NULL" name="license_details" parent="NULL" relationship="NULL" sys_domain="global" view="7299291ddb88fb0052af51735e9619db">3e99291ddb88fb0052af51735e9619db</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-03-06 19:41:06</sys_created_on>
+            <sys_id>f699291ddb88fb0052af51735e9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-03-06 19:41:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>allocated</element>
+            <list_id display_value="license_details" element="NULL" name="license_details" parent="NULL" relationship="NULL" sys_domain="global" view="7299291ddb88fb0052af51735e9619db">3e99291ddb88fb0052af51735e9619db</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-03-06 19:41:06</sys_created_on>
+            <sys_id>7a99291ddb88fb0052af51735e9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-03-06 19:41:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>license_type</element>
+            <list_id display_value="license_details" element="NULL" name="license_details" parent="NULL" relationship="NULL" sys_domain="global" view="7299291ddb88fb0052af51735e9619db">3e99291ddb88fb0052af51735e9619db</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-03-06 19:41:06</sys_created_on>
+            <sys_id>fa99291ddb88fb0052af51735e9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-03-06 19:41:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>license_details</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-03-06 19:41:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e99291ddb88fb0052af51735e9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>license_details</sys_name>
+            <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+            <sys_update_name>sys_ui_list_license_details_RPT38125ba2eb022100b8f326115206fef1</sys_update_name>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-03-06 19:41:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt38125ba2eb022100b8f326115206fef1" name="RPT38125ba2eb022100b8f326115206fef1">7299291ddb88fb0052af51735e9619db</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
