@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</contains>
+        <role display_value="x_24859_ps.staffing_request_user" name="x_24859_ps.staffing_request_user">21f1f668db983200a0b2d100cf961964</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>todd.fudala</sys_created_by>
+        <sys_created_on>2019-05-15 20:11:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>47bf0ab3db9df300e63d55535e961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itil.x_24859_ps.staffing_request_user</sys_name>
+        <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+        <sys_update_name>sys_user_role_contains_47bf0ab3db9df300e63d55535e961999</sys_update_name>
+        <sys_updated_by>todd.fudala</sys_updated_by>
+        <sys_updated_on>2019-05-15 20:11:00</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
