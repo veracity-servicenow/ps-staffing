@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_skill_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill_contains">
     <cmn_skill_contains action="INSERT_OR_UPDATE">
         <contains display_value="CISCO Equipment">48c9ffcfc0a8018b4d22a0b0f0c18c11</contains>
         <name>Routers/Switches - CISCO Equipment</name>

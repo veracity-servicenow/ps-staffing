@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="gsw_change_log">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2018-07-17 19:44:33</change_date>
         <changed_by display_value="Todd Fudala">14f76be313735600b9c65d622244b0bd</changed_by>

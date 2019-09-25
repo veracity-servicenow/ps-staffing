@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="work_location" label="Work Location" language="en" table="x_24859_ps_staffing_request">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>work_location</element>

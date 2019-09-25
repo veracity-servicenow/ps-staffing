@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_skill_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill_contains">
     <cmn_skill_contains action="INSERT_OR_UPDATE">
         <contains display_value="F5 Debugging/Setting">48e242a6c0a8018b37e696b68f72e3e1</contains>
         <name>F5 Load balancer - F5 Debugging/Setting</name>

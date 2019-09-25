@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="ServiceNow Solution" max_length="40" name="x_24859_ps_servicenow_solution" type="collection">
         <element display="true" label="Solution Name" max_length="40" name="solution_name" type="string"/>
     </element>

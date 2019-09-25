@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="60833aa8db983200a0b2d100cf961918" sys_domain="global" table="x_24859_ps_staffing_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>

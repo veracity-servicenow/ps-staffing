@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="04adf1724f801300dc6a1b818110c70f" sys_domain="global" table="x_24859_ps_servicenow_resource_detail" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_user_ref</element>

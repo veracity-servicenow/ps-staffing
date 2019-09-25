@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_skill">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill">
     <cmn_skill action="INSERT_OR_UPDATE">
         <active>true</active>
         <description/>

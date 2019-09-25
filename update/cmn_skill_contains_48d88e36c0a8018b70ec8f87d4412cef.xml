@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_skill_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill_contains">
     <cmn_skill_contains action="INSERT_OR_UPDATE">
         <contains display_value="OS Software">48c9fc5fc0a8018b065e3b52ed250377</contains>
         <name>FrontOffice - OS Software</name>

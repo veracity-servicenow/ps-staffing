@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_skill_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill_contains">
     <cmn_skill_contains action="INSERT_OR_UPDATE">
         <contains display_value="Part exchange/installation">48e6d1d8c0a8018b5545432493a5d7c9</contains>
         <name>Server Hardware - Part exchange/installation</name>

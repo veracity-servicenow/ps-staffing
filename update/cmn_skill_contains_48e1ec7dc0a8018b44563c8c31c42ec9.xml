@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_skill_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill_contains">
     <cmn_skill_contains action="INSERT_OR_UPDATE">
         <contains display_value="Software Load Balancing">48c9f61ec0a8018b54ce26c3f61f5118</contains>
         <name>Loadbalancers - Software Load Balancing</name>

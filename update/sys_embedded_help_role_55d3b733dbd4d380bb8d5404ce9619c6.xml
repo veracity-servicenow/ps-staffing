@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_embedded_help_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>100</order>
         <role display_value="sn_hr_le.activity_set_manager" name="sn_hr_le.activity_set_manager">3b8efaaf3b032200705d86a734efc43c</role>

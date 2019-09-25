@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_24859_ps_staffing_request" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -25,7 +24,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Responded</label>
+            <label>Resource submitted</label>
             <language>en</language>
             <name>x_24859_ps_staffing_request</name>
             <sequence>1</sequence>
@@ -34,9 +33,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e5a88693db283200a0b2d100cf961903</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-31 14:51:22</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-07-25 14:18:03</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -44,7 +43,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Accepted</label>
+            <label>Awarded</label>
             <language>en</language>
             <name>x_24859_ps_staffing_request</name>
             <sequence>2</sequence>
@@ -53,9 +52,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a2155b68dbd83200a0b2d100cf9619b4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-31 14:51:22</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-07-25 14:16:41</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -63,7 +62,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Decline</label>
+            <label>Not awarded</label>
             <language>en</language>
             <name>x_24859_ps_staffing_request</name>
             <sequence>3</sequence>
@@ -72,10 +71,29 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>12d73632db5c3200a0b2d100cf9619f0</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>todd.fudala</sys_updated_by>
-            <sys_updated_on>2019-01-21 14:32:26</sys_updated_on>
+            <sys_updated_on>2019-07-25 14:17:45</sys_updated_on>
             <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ignored</label>
+            <language>en</language>
+            <name>x_24859_ps_staffing_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>todd.fudala</sys_created_by>
+            <sys_created_on>2019-09-04 21:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3375f3fdba373409006f4eabf96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-09-04 21:44:41</sys_updated_on>
+            <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -85,15 +103,15 @@
             <label>Closed</label>
             <language>en</language>
             <name>x_24859_ps_staffing_request</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-10 21:06:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2e155b68dbd83200a0b2d100cf9619b5</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-31 14:51:22</sys_updated_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>todd.fudala</sys_updated_by>
+            <sys_updated_on>2019-09-04 21:44:41</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

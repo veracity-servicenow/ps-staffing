@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="cmn_skill_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_skill_contains">
     <cmn_skill_contains action="INSERT_OR_UPDATE">
         <contains display_value="Mac OS Installation/Setting">48c9f44ac0a8018b1ab1b70e3ca65e51</contains>
         <name>Mac OS - Mac OS Installation/Setting</name>
