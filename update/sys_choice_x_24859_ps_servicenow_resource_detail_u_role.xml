@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_role" table="x_24859_ps_servicenow_resource_detail" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TC</label>
+            <language>en</language>
+            <name>x_24859_ps_servicenow_resource_detail</name>
+            <sequence>100</sequence>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:36:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2c88d53db0c08509006f4eabf9619b5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:37:16</sys_updated_on>
+            <value>TC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BPC</label>
+            <language>en</language>
+            <name>x_24859_ps_servicenow_resource_detail</name>
+            <sequence>200</sequence>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:37:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1d88d53db0c08509006f4eabf9619b7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:37:32</sys_updated_on>
+            <value>BPC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SA</label>
+            <language>en</language>
+            <name>x_24859_ps_servicenow_resource_detail</name>
+            <sequence>300</sequence>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:38:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7190593db0c08509006f4eabf96196e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:38:24</sys_updated_on>
+            <value>SA</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_role</element>
+            <name>x_24859_ps_servicenow_resource_detail</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:36:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e9d8cd53db0c08509006f4eabf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_role</sys_name>
+            <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+            <sys_update_name>sys_choice_x_24859_ps_servicenow_resource_detail_u_role</sys_update_name>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:36:56</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

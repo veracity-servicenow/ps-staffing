@@ -3,42 +3,56 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_user_ref</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 21:58:06</sys_created_on>
-            <sys_id>fd20527e4f801300dc6a1b818110c7de</sys_id>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:40:12</sys_created_on>
+            <sys_id>5199cd93db0c08509006f4eabf9619b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_24859_ps_servicenow_resource_detail" sys_domain="global" view="Default view">04adf1724f801300dc6a1b818110c70f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 21:58:06</sys_updated_on>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:40:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_role</element>
+            <position>1</position>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:40:12</sys_created_on>
+            <sys_id>d599cd93db0c08509006f4eabf9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_24859_ps_servicenow_resource_detail" sys_domain="global" view="Default view">04adf1724f801300dc6a1b818110c70f</sys_ui_section>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:40:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_blurb</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 21:58:06</sys_created_on>
-            <sys_id>7120527e4f801300dc6a1b818110c7df</sys_id>
+            <position>2</position>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:40:12</sys_created_on>
+            <sys_id>5d99cd93db0c08509006f4eabf9619b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_24859_ps_servicenow_resource_detail" sys_domain="global" view="Default view">04adf1724f801300dc6a1b818110c70f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 21:58:06</sys_updated_on>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:40:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>2</position>
-            <sys_created_by>todd.fudala</sys_created_by>
-            <sys_created_on>2019-07-25 13:39:43</sys_created_on>
-            <sys_id>f70f5a6adbbafb4052af51735e961923</sys_id>
+            <position>3</position>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:40:12</sys_created_on>
+            <sys_id>d199cd93db0c08509006f4eabf9619b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_24859_ps_servicenow_resource_detail" sys_domain="global" view="Default view">04adf1724f801300dc6a1b818110c70f</sys_ui_section>
-            <sys_updated_by>todd.fudala</sys_updated_by>
-            <sys_updated_on>2019-07-25 13:39:43</sys_updated_on>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:40:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

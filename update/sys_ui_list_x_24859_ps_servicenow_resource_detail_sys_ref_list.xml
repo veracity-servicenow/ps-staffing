@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_24859_ps_servicenow_resource_detail" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_id</element>
+            <list_id display_value="x_24859_ps_servicenow_resource_detail" element="NULL" name="x_24859_ps_servicenow_resource_detail" parent="NULL" relationship="NULL" sys_domain="global" view="1c88242213221200b9c63d622244b05d">841c0d57db0c08509006f4eabf96195f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:51:02</sys_created_on>
+            <sys_id>401c0d57db0c08509006f4eabf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:51:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_24859_ps_servicenow_resource_detail</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>matt.mccord</sys_created_by>
+            <sys_created_on>2019-09-27 18:51:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>841c0d57db0c08509006f4eabf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_24859_ps_servicenow_resource_detail</sys_name>
+            <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
+            <sys_update_name>sys_ui_list_x_24859_ps_servicenow_resource_detail_sys_ref_list</sys_update_name>
+            <sys_updated_by>matt.mccord</sys_updated_by>
+            <sys_updated_on>2019-09-27 18:51:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">1c88242213221200b9c63d622244b05d</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

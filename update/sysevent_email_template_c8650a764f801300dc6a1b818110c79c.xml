@@ -8,9 +8,11 @@
 <o:idmap v:ext="edit" data="1" />
 </o:shapelayout></xml><![endif]-->
 <div class="WordSection1">
-<p class="MsoNormal">Candidate:</p>
+<p class="MsoNormal">Candidate:&nbsp;${u_user_ref.name}</p>
 <p class="MsoNormal">&nbsp;</p>
 <p class="MsoNormal">${u_blurb}</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">${u_user_ref.name}<br />O: ${u_user_ref.phone}<br />M: ${u_user_ref.mobile_phone}<br /> E: <a href="mailto:${sender.email}">${u_user_ref.email}</a></p>
 <p class="MsoNormal">&nbsp;</p>
 ${mail_script:x_24859_responded_resman}
 <p class="MsoNormal">&nbsp;</p>
@@ -141,15 +143,15 @@ ${mail_script:x_24859_responded_resman}
         <sys_created_on>2018-02-06 21:13:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c8650a764f801300dc6a1b818110c79c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Veracity Email Template</sys_name>
         <sys_package display_value="PS Staffing" source="x_24859_ps">3231be28db983200a0b2d100cf961966</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="PS Staffing">3231be28db983200a0b2d100cf961966</sys_scope>
         <sys_update_name>sysevent_email_template_c8650a764f801300dc6a1b818110c79c</sys_update_name>
-        <sys_updated_by>todd.fudala</sys_updated_by>
-        <sys_updated_on>2018-02-07 17:47:02</sys_updated_on>
+        <sys_updated_by>matt.mccord</sys_updated_by>
+        <sys_updated_on>2019-09-27 19:08:22</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>
